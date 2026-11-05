@@ -1,5 +1,5 @@
 # What is this?
-This is a [PopTracker](https://poptracker.github.io/) pack for @Silvris' [Mega Man 4 integration](https://github.com/Silvris/Archipelago/releases?q=mega+man+4&expanded=true) for [Archipelago](https://archipelago.gg/).
+This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for Silvris' [Mega Man 4 integration](https://github.com/Silvris/Archipelago/releases?q=mega+man+4&expanded=true) for [Archipelago](https://github.com/ArchipelagoMW/Archipelago).
 
 It tracks the items that the player receives and the locations that the player checks, displaying which ones are reachable based on their items.
 
@@ -19,8 +19,8 @@ This does not interact perfectly with other functions and may result in logic be
 # Credits
 This pack would not have been possible without the resources that I used to create it:
 
-@StripesOO7's [poptracker-pack-builder](https://github.com/StripesOO7/poptracker-pack-builder) was a great help with getting things off the ground, and most of its baked-in lua functions still remain in the pack untouched.
+StripesOO7's [poptracker-pack-builder](https://github.com/StripesOO7/poptracker-pack-builder) was a great help with getting things off the ground, and most of its baked-in lua functions still remain in the pack untouched.
 
-@PainSeer's [HGSS-AP-poptracker-pack](https://github.com/PainSeer/HGSS-AP-poptracker-pack), @palex00's [platinum-ap-tracker](https://github.com/palex00/platinum-ap-tracker), @BrianCumminger's [megaman2-ap-poptracker](https://github.com/BrianCumminger/megaman2-ap-poptracker), and @MysteryEm's [ww-poptracker](https://github.com/Mysteryem/ww-poptracker) were all very useful as inspiration and sources upon which many of the custom LUA functions were based, as well as references for JSON syntax.
+PainSeer's [HGSS-AP-poptracker-pack](https://github.com/PainSeer/HGSS-AP-poptracker-pack), palex00's [platinum-ap-tracker](https://github.com/palex00/platinum-ap-tracker), BrianCumminger's [megaman2-ap-poptracker](https://github.com/BrianCumminger/megaman2-ap-poptracker), and MysteryEm's [ww-poptracker](https://github.com/Mysteryem/ww-poptracker) were all very useful as inspiration and sources upon which many of the custom LUA functions were based, as well as references for JSON syntax.
 
-Last but not least, [MisterMike](https://www.spriters-resource.com/profile/mistermike/)'s contributions providing [Mega Man 4 sprites](https://www.spriters-resource.com/nes/mm4/) to [The Spriters Resource](https://www.spriters-resource.com/) gave me a goldmine of assets, without which none of the visuals used in the pack would have been possible.
+Last but not least, MisterMike's contributions providing [Mega Man 4 sprites to The Spriters Resource](https://www.spriters-resource.com/nes/mm4/) gave me a goldmine of assets, without which none of the visuals used in the pack would have been possible.
