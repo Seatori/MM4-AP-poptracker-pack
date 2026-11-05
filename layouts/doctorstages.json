@@ -1,0 +1,108 @@
+{
+    "cossackstages": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Dr. Cossack's Fortress Stage 1",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstage1"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Cossack's Fortress Stage 2",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstage2"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Cossack's Fortress Stage 3",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstage3"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Cossack's Fortress Stage 4",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstage4"
+                    }
+                    ]
+                }
+            }
+        ]
+    },
+    "wilystages": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Dr. Wily's Fortress Stage 1",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystage1"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Wily's Fortress Stage 2",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystage2"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Wily's Fortress Stage 3",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystage3"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dr. Wily's Fortress Stage 4",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystage4"
+                    }
+                    ]
+                }
+            }
+        ]
+    }
+}

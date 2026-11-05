@@ -1,0 +1,636 @@
+{
+    "brightmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "brightmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "divemanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Wire Shaft",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstagewire"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "divemanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "drillmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "drillmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "dustmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "dustmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "pharaohmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Balloon Path",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstageballoon"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Section 8",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstage8"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "pharaohmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "ringmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "ringmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "skullmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "skullmanstageboss"
+                    ]
+                }
+            }
+        ]
+    },
+    "toadmanstage": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage1"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage2"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage3"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage4"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage5"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage6"
+                    ]
+                }
+            },
+            {
+                "title": "Section 7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstage7"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "toadmanstageboss"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Stage-Pickups",
+        "children": [
+            {"name": "Bright Man Stage", "sections": [{"ref": "Bright Man Stage/Health Energy", "name": "Health Energy"}], "map_locations": [{"map": "brightmanstage3", "x": 216, "y": 185}]},
+            {"name": "Bright Man Stage\u200b", "sections": [{"ref": "Bright Man Stage/E-Tank", "name": "E-Tank"}], "map_locations": [{"map": "brightmanstage4", "x": 958, "y": 329}]},
+            {"name": "Bright Man Stage\u200b\u200b", "sections": [{"ref": "Bright Man Stage/1-Up", "name": "1-Up"}], "map_locations": [{"map": "brightmanstage4", "x": 978, "y": 329}]},
+            {"name": "Bright Man Stage\u200b\u200b\u200b", "sections": [{"ref": "Bright Man Stage/Weapon Energy", "name": "Weapon Energy"}], "map_locations": [{"map": "brightmanstage5", "x": 112, "y": 89}]},
+            {"name": "Bright Man", "map_locations": [{"map": "brightmanstageboss", "size": 12, "x": 216, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Bright Man Stage/Bright Man - Defeated"},
+                {"name": "Flash Stopper - Received", "ref": "Bright Man Stage/Flash Stopper - Received"}
+                ]
+            },
+            {"name": "Dive Man Stage", "sections": [{"ref": "Dive Man Stage/Item from Eddie", "name": "Item from Eddie"}], "map_locations": [{"map": "divemanstage4", "x": 42, "y": 359}]},
+            {"name": "Dive Man Stage\u200b", "sections": [{"ref": "Dive Man Stage/Wire Adapter - Received", "name": "Wire Adapter - Received"}], "map_locations": [{"map": "divemanstagewire", "x": 392, "y": 425}]},
+            {"name": "Wire Shaft", "sections": [{"ref": "Dive Man Stage/Wire Adapter - Received", "name": "Wire Adapter - Received"}], "map_locations": [{"map": "divemanstage6", "x": 80, "y": 208, "shape": "concave_kite", "orientation": "south"}]},
+            {"name": "Dive Man", "map_locations": [{"map": "divemanstageboss", "size": 12, "x": 215, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Dive Man Stage/Dive Man - Defeated"},
+                {"name": "Dive Missile - Received", "ref": "Dive Man Stage/Dive Missile - Received"}
+                ]
+            },
+            {"name": "Drill Man Stage", "sections": [{"ref": "Drill Man Stage/Health Energy", "name": "Health Energy"}], "map_locations": [{"map": "drillmanstage2", "x": 304, "y": 281}]},
+            {"name": "Drill Man Stage\u200b", "sections": [{"ref": "Drill Man Stage/1-Up", "name": "1-Up"}], "map_locations": [{"map": "drillmanstage3", "x": 208, "y": 185}]},
+            {"name": "Drill Man Stage\u200b\u200b", "sections": [{"ref": "Drill Man Stage/E-Tank", "name": "E-Tank"}], "map_locations": [{"map": "drillmanstage4", "x": 48, "y": 73}]},
+            {"name": "Drill Man", "map_locations": [{"map": "drillmanstageboss", "size": 12, "x": 215, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Drill Man Stage/Drill Man - Defeated"},
+                {"name": "Drill Bomb - Received", "ref": "Drill Man Stage/Drill Bomb - Received"},
+                {"name": "Rush Jet - Received", "ref": "Drill Man Stage/Rush Jet - Received"}
+                ]
+            },
+            {"name": "Dust Man Stage", "sections": [{"ref": "Dust Man Stage/Health Energy", "name": "Health Energy"}], "map_locations": [{"map": "dustmanstage2", "x": 400, "y": 329}]},
+            {"name": "Dust Man Stage\u200b", "sections": [{"ref": "Dust Man Stage/Item from Eddie", "name": "Item from Eddie"}], "map_locations": [{"map": "dustmanstage4", "x": 41, "y": 87}]},
+            {"name": "Dust Man", "map_locations": [{"map": "dustmanstageboss", "size": 12, "x": 217, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Dust Man Stage/Dust Man - Defeated"},
+                {"name": "Dust Crusher - Received", "ref": "Dust Man Stage/Dust Crusher - Received"}
+                ]
+            },
+            {"name": "Pharaoh Man Stage", "sections": [{"ref": "Pharaoh Man Stage/Balloon Adapter - Received", "name": "Balloon Adapter - Received"}], "map_locations": [{"map": "pharaohmanstageballoon", "x": 976, "y": 169}]},
+            {"name": "Pharaoh Man Stage\u200b", "sections": [{"ref": "Pharaoh Man Stage/E-Tank", "name": "E-Tank"}], "map_locations": [{"map": "pharaohmanstage4", "x": 728, "y": 89}]},
+            {"name": "Balloon Path", "sections": [{"ref": "Pharaoh Man Stage/Balloon Adapter - Received", "name": "Balloon Adapter - Received"}], "map_locations": [{"map": "pharaohmanstage2", "x": 864, "y": 160, "shape": "concave_kite", "orientation": "east"}]},
+            {"name": "Sections 3-4", "sections": [{"ref": "Pharaoh Man Stage/E-Tank", "name": "E-Tank"}], "map_locations": [{"map": "pharaohmanstage2", "x": 800, "y": 216, "shape": "concave_kite", "orientation": "south"}]},
+            {"name": "Pharaoh Man", "map_locations": [{"map": "pharaohmanstageboss", "size": 12, "x": 219, "y": 185}], "sections": [
+                {"name": "Defeated", "ref": "Pharaoh Man Stage/Pharaoh Man - Defeated"},
+                {"name": "Pharaoh Shot - Received", "ref": "Pharaoh Man Stage/Pharaoh Shot - Received"}
+                ]
+            },
+            {"name": "Ring Man Stage", "sections": [{"ref": "Ring Man Stage/Health Energy", "name": "Health Energy"}], "map_locations": [{"map": "ringmanstage3", "x": 248, "y": 201}]},
+            {"name": "Ring Man Stage\u200b", "sections": [{"ref": "Ring Man Stage/Item from Eddie", "name": "Item from Eddie"}], "map_locations": [{"map": "ringmanstage4", "x": 447, "y": 183}]},
+            {"name": "Ring Man", "map_locations": [{"map": "ringmanstageboss", "size": 12, "x": 217, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Ring Man Stage/Ring Man - Defeated"},
+                {"name": "Ring Boomerang - Received", "ref": "Ring Man Stage/Ring Boomerang - Received"}
+                ]
+            },
+            {"name": "Skull Man Stage", "sections": [{"ref": "Skull Man Stage/Health Energy 1", "name": "Health Energy 1"}], "map_locations": [{"map": "skullmanstage3", "x": 888, "y": 185}]},
+            {"name": "Skull Man Stage\u200b", "sections": [{"ref": "Skull Man Stage/Item from Eddie", "name": "Item from Eddie"}], "map_locations": [{"map": "skullmanstage4", "x": 50, "y": 183}]},
+            {"name": "Skull Man Stage\u200b\u200b", "sections": [{"ref": "Skull Man Stage/E-Tank 1", "name": "E-Tank 1"}], "map_locations": [{"map": "skullmanstage5", "x": 808, "y": 89}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 2", "name": "Health Energy 2"}], "map_locations": [{"map": "skullmanstage5", "x": 880, "y": 41}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/E-Tank 2", "name": "E-Tank 2"}], "map_locations": [{"map": "skullmanstage6", "x": 520, "y": 201}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 3", "name": "Health Energy 3"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 904, "y": 300}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 4", "name": "Health Energy 4"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 920, "y": 300}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 5", "name": "Health Energy 5"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 936, "y": 300}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 6", "name": "Health Energy 6"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 952, "y": 300}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 7", "name": "Health Energy 7"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 968, "y": 300}]},
+            {"name": "Skull Man Stage\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b", "sections": [{"ref": "Skull Man Stage/Health Energy 8", "name": "Health Energy 8"}], "map_locations": [{"map": "skullmanstage7", "size": 10, "x": 984, "y": 300}]},
+            {"name": "Skull Man", "map_locations": [{"map": "skullmanstageboss", "size": 12, "x": 216, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Skull Man Stage/Skull Man - Defeated"},
+                {"name": "Skull Barrier - Received", "ref": "Skull Man Stage/Skull Barrier - Received"}
+                ]
+            },
+            {"name": "Toad Man Stage", "sections": [{"ref": "Toad Man Stage/Health Energy 1", "name": "Health Energy 1"}], "map_locations": [{"map": "toadmanstage4", "size": 10, "x": 584, "y": 140}]},
+            {"name": "Toad Man Stage\u200b", "sections": [{"ref": "Toad Man Stage/Health Energy 2", "name": "Health Energy 2"}], "map_locations": [{"map": "toadmanstage4", "size": 10, "x": 600, "y": 140}]},
+            {"name": "Toad Man Stage\u200b\u200b", "sections": [{"ref": "Toad Man Stage/Health Energy 3", "name": "Health Energy 3"}], "map_locations": [{"map": "toadmanstage4", "size": 10, "x": 616, "y": 140}]},
+            {"name": "Toad Man", "map_locations": [{"map": "toadmanstageboss", "size": 12, "x": 215, "y": 186}], "sections": [
+                {"name": "Defeated", "ref": "Toad Man Stage/Toad Man - Defeated"},
+                {"name": "Rain Flush - Received", "ref": "Toad Man Stage/Rain Flush - Received"},
+                {"name": "Rush Marine - Received", "ref": "Toad Man Stage/Rush Marine - Received"}
+                ]
+            }
+        ]
+    }
+]

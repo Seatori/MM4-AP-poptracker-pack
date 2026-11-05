@@ -1,0 +1,55 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "background": "#0070CE",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Access Codes",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "access_codes_item_grid_vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Weapons",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "weapons_item_grid_vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Logic Options",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "setting_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "layout",
+                            "key": "tabbed_maps_vertical"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

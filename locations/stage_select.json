@@ -1,0 +1,1478 @@
+[
+    {
+        "name": "Bright Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "brightmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy",
+                "access_rules": ["$vertical", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "1-Up",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/oneup.png",
+                "chest_opened_img": "/images/locations/oneupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy",
+                "access_rules": ["rushcoil", "wireadapter"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Bright Man - Defeated",
+                "access_rules": ["$beat_bright_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/brightman.png",
+                "chest_opened_img": "/images/locations/brightmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Flash Stopper - Received",
+                "access_rules": ["$beat_bright_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/flashstopper.png",
+                "chest_opened_img": "/images/items/flashstopperopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 223,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 223,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 145,
+                "y": 112,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Dive Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "divemanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Item from Eddie",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/eddie.png",
+                "chest_opened_img": "/images/locations/eddieopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Wire Adapter - Received",
+                "access_rules": ["[$beat_dive_man]", "[$random_shuffled_strict,$any_weapon]"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/wirepickup.png",
+                "chest_opened_img": "/images/locations/wirepickupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Dive Man - Defeated",
+                "access_rules": ["$beat_dive_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/diveman.png",
+                "chest_opened_img": "/images/locations/divemanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Dive Missile - Received",
+                "access_rules": ["$beat_dive_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/divemissile.png",
+                "chest_opened_img": "/images/items/divemissileopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 143,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 143,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 143,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 128,
+                "y": 95,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Drill Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "drillmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "1-Up",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/oneup.png",
+                "chest_opened_img": "/images/locations/oneupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": ["$vertical", "[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Drill Man - Defeated",
+                "access_rules": ["$beat_drill_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/drillman.png",
+                "chest_opened_img": "/images/locations/drillmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Drill Bomb - Received",
+                "access_rules": ["$beat_drill_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/drillbomb.png",
+                "chest_opened_img": "/images/items/drillbombopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Rush Jet - Received",
+                "access_rules": ["$beat_drill_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/rushjet.png",
+                "chest_opened_img": "/images/items/rushjetopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 143,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 143,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 143,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 128,
+                "y": 129,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Dust Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "dustmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Item from Eddie",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/eddie.png",
+                "chest_opened_img": "/images/locations/eddieopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Dust Man - Defeated",
+                "access_rules": ["$beat_dust_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/dustman.png",
+                "chest_opened_img": "/images/locations/dustmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Dust Crusher - Received",
+                "access_rules": ["$beat_dust_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/dustcrusher.png",
+                "chest_opened_img": "/images/items/dustcrusheropen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 223,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 223,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 145,
+                "y": 129,
+                "size": 12
+            }
+         ]
+    },
+    {
+        "name": "Pharaoh Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "pharaohmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Balloon Adapter - Received",
+                "access_rules": ["[$beat_pharaoh_man]"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/balloonpickup.png",
+                "chest_opened_img": "/images/locations/balloonpickupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": ["$vertical", "[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Pharaoh Man - Defeated",
+                "access_rules": ["$beat_pharaoh_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/pharaohman.png",
+                "chest_opened_img": "/images/locations/pharaohmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Pharaoh Shot - Received",
+                "access_rules": ["$beat_pharaoh_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/pharaohshot.png",
+                "chest_opened_img": "/images/items/pharaohshotopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 63,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 63,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 111,
+                "y": 112,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Ring Man Stage",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "ringmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Item from Eddie",
+                "access_rules": ["$vertical", "[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/eddie.png",
+                "chest_opened_img": "/images/locations/eddieopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Ring Man - Defeated",
+                "access_rules": ["$beat_ring_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/ringman.png",
+                "chest_opened_img": "/images/locations/ringmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Ring Boomerang - Received",
+                "access_rules": ["$beat_ring_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/ringboomerang.png",
+                "chest_opened_img": "/images/items/ringboomerangopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 63,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 63,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 111,
+                "y": 95,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Skull Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "skullmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Item from Eddie",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/eddie.png",
+                "chest_opened_img": "/images/locations/eddieopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 4",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 5",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 6",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 7",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 8",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Skull Man - Defeated",
+                "access_rules": ["$beat_skull_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/skullman.png",
+                "chest_opened_img": "/images/locations/skullmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Skull Barrier - Received",
+                "access_rules": ["$beat_skull_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/skullbarrier.png",
+                "chest_opened_img": "/images/items/skullbarrieropen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 223,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 223,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 145,
+                "y": 95,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Toad Man Stage",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "toadmanaccesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Toad Man - Defeated",
+                "access_rules": ["$beat_toad_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/toadman.png",
+                "chest_opened_img": "/images/locations/toadmanopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Rain Flush - Received",
+                "access_rules": ["$beat_toad_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/rainflush.png",
+                "chest_opened_img": "/images/items/rainflushopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Rush Marine - Received",
+                "access_rules": ["$beat_toad_man", "{$random_shuffled_strict,$any_weapon}", "{$random_weaknesses}"],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/items/rushmarine.png",
+                "chest_opened_img": "/images/items/rushmarineopen.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 63,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 63,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 111,
+                "y": 129,
+                "size": 12
+            }
+        ]
+    },
+    {
+        "name": "Dr. Cossack's Fortress 1",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "dr.cossacksfortress1accesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": ["$vertnowire", "[$vertnowire],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 3",
+                "access_rules": ["$vertnowire", "[$vertnowire],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Mothraya - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses,$vertnowire", 
+                    "$vanilla_weaknesses,[$vertnowire],rushjet",
+                    "$strict_weaknesses,ringboomerang,$vertnowire",
+                    "$strict_weaknesses,ringboomerang,[$vertnowire],rushjet",
+                    "$shuffled_weaknesses,$vertnowire",
+                    "$shuffled_weaknesses,[$vertnowire],rushjet",
+                    "{$random_shuffled_strict,$any_weapon},$vertnowire",
+                    "{$random_shuffled_strict,$any_weapon},[$vertnowire],rushjet",
+                    "$all_weapons,$vertnowire",
+                    "$all_weapons,[$vertnowire],rushjet",
+                    "{$random_weaknesses},$vertnowire",
+                    "{$random_weaknesses},[$vertnowire],rushjet"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/mothraya.png",
+                "chest_opened_img": "/images/locations/mothrayaopen.png",
+                "item_count": 1,
+                "hosted_item": "cossack1clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 303,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 255,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 111,
+                "y": 95,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 63,
+                "y": 63,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Cossack's Fortress 2",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "dr.cossacksfortress2accesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 3",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 4",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 1",
+                "access_rules": ["balloonadapter", "$vertical,rushjet", "[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 5",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 2",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 6",
+                "access_rules": ["balloonadapter", "rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": ["balloonadapter,drillbomb", "rushjet,drillbomb"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "1-Up",
+                "access_rules": ["balloonadapter", "$vertical,rushjet", "[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/oneup.png",
+                "chest_opened_img": "/images/locations/oneupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Square Machine - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses,balloonadapter",
+                    "$vanilla_weaknesses,rushjet",
+                    "$strict_weaknesses,dustcrusher,balloonadapter",
+                    "$strict_weaknesses,dustcrusher,rushjet",
+                    "$shuffled_weaknesses,balloonadapter",
+                    "$shuffled_weaknesses,rushjet",
+                    "{$random_shuffled_strict,$any_weapon},balloonadapter",
+                    "{$random_shuffled_strict,$any_weapon},rushjet",
+                    "{$random_weaknesses},balloonadapter",
+                    "{$random_weaknesses},rushjet",
+                    "$all_weapons,balloonadapter",
+                    "$all_weapons,rushjet"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/squaremachine.png",
+                "chest_opened_img": "/images/locations/squaremachineopen.png",
+                "item_count": 1,
+                "hosted_item": "cossack2clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 383,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 143,
+                "y": 255,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 128,
+                "y": 95,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 143,
+                "y": 63,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Cossack's Fortress 3",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "dr.cossacksfortress3accesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": ["balloonadapter"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Cockroach Twins - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses", 
+                    "$strict_weaknesses,drillbomb", 
+                    "$strict_weaknesses,ringboomerang", 
+                    "$shuffled_weaknesses", 
+                    "{$random_shuffled_strict,$any_weapon}", 
+                    "{$random_weaknesses}", 
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/cockroachtwins.png",
+                "chest_opened_img": "/images/locations/cockroachtwinsopen.png",
+                "item_count": 1,
+                "hosted_item": "cossack3clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 463,
+                "y": 63,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 255,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 145,
+                "y": 95,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 223,
+                "y": 63,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Cossack's Fortress 4",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "dr.cossacksfortress4accesscodes"
+        ],
+        "sections": [
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": ["[$vertnowire]"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": ["[$vertnowire]"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank 1",
+                "access_rules": ["drillbomb"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank 2",
+                "access_rules": ["drillbomb,rushcoil", "drillbomb,wireadapter", "drillbomb,[rushcoil],[wireadapter],balloonadapter"],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "1-Up",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/oneup.png",
+                "chest_opened_img": "/images/locations/oneupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 2",
+                "access_rules": ["drillbomb,$vertical", "drillbomb,[$vertical],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 4",
+                "access_rules": ["balloonadapter", "wireadapter", "[balloonadapter],[wireadapter],rushjet"],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Cossack Catcher - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses", 
+                    "$strict_weaknesses,dustcrusher", 
+                    "$shuffled_weaknesses", 
+                    "{$random_shuffled_strict,$any_weapon}", 
+                    "{$random_weaknesses}", 
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/cossackcatcher.png",
+                "chest_opened_img": "/images/locations/cossackdefeated.png",
+                "item_count": 1,
+                "hosted_item": "cossack4clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 303,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 319,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 111,
+                "y": 112,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 63,
+                "y": 127,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Wily's Fortress 1",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "[$wily_1_access],cossack1clear,cossack2clear,cossack3clear,cossack4clear"
+        ],
+        "sections": [
+            {
+                "name": "Health Energy",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "E-Tank",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Metall Daddy - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses", 
+                    "$strict_weaknesses,ringboomerang", 
+                    "$strict_weaknesses,dustcrusher", 
+                    "$shuffled_weaknesses", 
+                    "{$random_shuffled_strict,$any_weapon}", 
+                    "{$random_weaknesses}", 
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/metalldaddy.png",
+                "chest_opened_img": "/images/locations/metalldaddyopen.png",
+                "item_count": 1,
+                "hosted_item": "wily1clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 463,
+                "y": 127,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 319,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 145,
+                "y": 112,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 223,
+                "y": 127,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Wily's Fortress 2",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "[$wily_1_access],$wily_2_access"
+        ],
+        "sections": [
+            {
+                "name": "E-Tank",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Item from Eddie",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/eddie.png",
+                "chest_opened_img": "/images/locations/eddieopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Tako Trash - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses", 
+                    "$strict_weaknesses,ringboomerang", 
+                    "$shuffled_weaknesses", 
+                    "{$random_shuffled_strict,$any_weapon_tako_trash}", 
+                    "{$random_weaknesses}", 
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/takotrash.png",
+                "chest_opened_img": "/images/locations/takotrashopen.png",
+                "item_count": 1,
+                "hosted_item": "wily2clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 303,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 63,
+                "y": 383,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 111,
+                "y": 129,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 63,
+                "y": 191,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Wily's Fortress 3",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "[$wily_1_access],$wily_3_access"
+        ],
+        "sections": [
+            {
+                "name": "E-Tank",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/etank.png",
+                "chest_opened_img": "/images/locations/etankopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "1-Up",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_1upetank_on"],
+                "chest_unopened_img": "/images/locations/oneup.png",
+                "chest_opened_img": "/images/locations/oneupopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energybig.png",
+                "chest_opened_img": "/images/locations/energybigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 1",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 2",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpsmall.png",
+                "chest_opened_img": "/images/locations/hpsmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 4",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 5",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 6",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 7",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Weapon Energy 8",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/energysmall.png",
+                "chest_opened_img": "/images/locations/energysmallopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Health Energy 3",
+                "access_rules": [],
+                "visibility_rules": ["opt_consumables_on", "opt_energy_on"],
+                "chest_unopened_img": "/images/locations/hpbig.png",
+                "chest_opened_img": "/images/locations/hpbigopen.png",
+                "item_count": 1
+            },
+            {
+                "name": "Wily Machine 4 - Defeated",
+                "access_rules": [
+                    "$vanilla_weaknesses", 
+                    "$strict_weaknesses,ringboomerang,drillbomb,$clear_boss_rush_bug", 
+                    "$shuffled_weaknesses",
+                    "{$shuffled_strict,$any_two_weapons,$clear_boss_rush_bug}", 
+                    "{$random_strict,$any_weapon}", 
+                    "{$random_weaknesses}",
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/wilymachine4.png",
+                "chest_opened_img": "/images/locations/wilymachine4defeated.png",
+                "item_count": 1,
+                "hosted_item": "wily3clear"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 383,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 143,
+                "y": 383,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 128,
+                "y": 129,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 143,
+                "y": 191,
+                "size": 14
+            }
+        ]
+    },
+    {
+        "name": "Dr. Wily's Fortress 4",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "[$wily_1_access],$wily_4_access"
+        ],
+        "sections": [
+            {
+                "name": "Wily Capsule - Defeated (Goal)",
+                "access_rules": [
+                    "opt_strictweaknesses_off,opt_randombossweaknesses_off,ringboomerang", 
+                    "opt_randombossweaknesses_off,pharaohshot", 
+                    "{$shuffled_weaknesses,$any_weapon}", 
+                    "{$shuffled_strict,$any_weapon_wily_capsule_bug}", 
+                    "{$random_strict,$any_weapon}", 
+                    "{$random_weaknesses}", 
+                    "$shuffled_strict,$all_weapons_wily_capsule_bug",
+                    "$all_weapons"
+                ],
+                "visibility_rules": [],
+                "chest_unopened_img": "/images/locations/wilycapsule.png",
+                "chest_opened_img": "/images/locations/wilydefeated.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "stageselect",
+                "x": 463,
+                "y": 191,
+                "size": 14
+            },
+            {
+                "map": "stageselectvertical",
+                "x": 223,
+                "y": 383,
+                "size": 14
+            },
+            {
+                "map": "stageselectrobot",
+                "x": 145,
+                "y": 129,
+                "size": 12
+            },
+            {
+                "map": "stageselectdoctor",
+                "x": 223,
+                "y": 191,
+                "size": 14
+            }
+        ]
+    }
+]

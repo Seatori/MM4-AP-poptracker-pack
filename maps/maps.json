@@ -1,0 +1,818 @@
+[
+    {
+        "name": "stageselect",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/stageselect.png"
+    },
+    {
+        "name": "stageselectvertical",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/stageselectvertical.png"
+    },
+    {
+        "name": "stageselectrobot",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/stageselectrobot.png"
+    },
+    {
+        "name": "stageselectdoctor",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/stageselectdoctor.png"
+    },
+    {
+        "name": "brightmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage.png"
+    },
+    {
+        "name": "brightmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage1.png"
+    },
+    {
+        "name": "brightmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage2.png"
+    },
+    {
+        "name": "brightmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage3.png"
+    },
+    {
+        "name": "brightmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage4.png"
+    },
+    {
+        "name": "brightmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage5.png"
+    },
+    {
+        "name": "brightmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage6.png"
+    },
+    {
+        "name": "brightmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstage7.png"
+    },
+    {
+        "name": "brightmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/brightmanstageboss.png"
+    },
+    {
+        "name": "divemanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage.png"
+    },
+    {
+        "name": "divemanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage1.png"
+    },
+    {
+        "name": "divemanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage2.png"
+    },
+    {
+        "name": "divemanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage3.png"
+    },
+    {
+        "name": "divemanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage4.png"
+    },
+    {
+        "name": "divemanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage5.png"
+    },
+    {
+        "name": "divemanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage6.png"
+    },
+    {
+        "name": "divemanstagewire",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstagewire.png"
+    },
+    {
+        "name": "divemanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstage7.png"
+    },
+    {
+        "name": "divemanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/divemanstageboss.png"
+    },
+    {
+        "name": "drillmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage.png"
+    },
+    {
+        "name": "drillmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage1.png"
+    },
+    {
+        "name": "drillmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage2.png"
+    },
+    {
+        "name": "drillmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage3.png"
+    },
+    {
+        "name": "drillmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage4.png"
+    },
+    {
+        "name": "drillmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage5.png"
+    },
+    {
+        "name": "drillmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstage6.png"
+    },
+    {
+        "name": "drillmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/drillmanstageboss.png"
+    },
+    {
+        "name": "dustmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage.png"
+    },
+    {
+        "name": "dustmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage1.png"
+    },
+    {
+        "name": "dustmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage2.png"
+    },
+    {
+        "name": "dustmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage3.png"
+    },
+    {
+        "name": "dustmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage4.png"
+    },
+    {
+        "name": "dustmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage5.png"
+    },
+    {
+        "name": "dustmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage6.png"
+    },
+    {
+        "name": "dustmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstage7.png"
+    },
+    {
+        "name": "dustmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/dustmanstageboss.png"
+    },
+    {
+        "name": "pharaohmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage.png"
+    },
+    {
+        "name": "pharaohmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage1.png"
+    },
+    {
+        "name": "pharaohmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage2.png"
+    },
+    {
+        "name": "pharaohmanstageballoon",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstageballoon.png"
+    },
+    {
+        "name": "pharaohmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage3.png"
+    },
+    {
+        "name": "pharaohmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage4.png"
+    },
+    {
+        "name": "pharaohmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage5.png"
+    },
+    {
+        "name": "pharaohmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage6.png"
+    },
+    {
+        "name": "pharaohmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage7.png"
+    },
+    {
+        "name": "pharaohmanstage8",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstage8.png"
+    },
+    {
+        "name": "pharaohmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/pharaohmanstageboss.png"
+    },
+    {
+        "name": "ringmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage.png"
+    },
+    {
+        "name": "ringmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage1.png"
+    },
+    {
+        "name": "ringmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage2.png"
+    },
+    {
+        "name": "ringmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage3.png"
+    },
+    {
+        "name": "ringmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage4.png"
+    },
+    {
+        "name": "ringmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage5.png"
+    },
+    {
+        "name": "ringmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage6.png"
+    },
+    {
+        "name": "ringmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstage7.png"
+    },
+    {
+        "name": "ringmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/ringmanstageboss.png"
+    },
+    {
+        "name": "skullmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage.png"
+    },
+    {
+        "name": "skullmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage1.png"
+    },
+    {
+        "name": "skullmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage2.png"
+    },
+    {
+        "name": "skullmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage3.png"
+    },
+    {
+        "name": "skullmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage4.png"
+    },
+    {
+        "name": "skullmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage5.png"
+    },
+    {
+        "name": "skullmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage6.png"
+    },
+    {
+        "name": "skullmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstage7.png"
+    },
+    {
+        "name": "skullmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/skullmanstageboss.png"
+    },
+    {
+        "name": "toadmanstage",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage.png"
+    },
+    {
+        "name": "toadmanstage1",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage1.png"
+    },
+    {
+        "name": "toadmanstage2",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage2.png"
+    },
+    {
+        "name": "toadmanstage3",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage3.png"
+    },
+    {
+        "name": "toadmanstage4",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage4.png"
+    },
+    {
+        "name": "toadmanstage5",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage5.png"
+    },
+    {
+        "name": "toadmanstage6",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage6.png"
+    },
+    {
+        "name": "toadmanstage7",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstage7.png"
+    },
+    {
+        "name": "toadmanstageboss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/toadmanstageboss.png"
+    },
+    {
+        "name": "cossackstage1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1.png"
+    },
+    {
+        "name": "cossackstage1a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1a.png"
+    },
+    {
+        "name": "cossackstage1b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1b.png"
+    },
+    {
+        "name": "cossackstage1c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1c.png"
+    },
+    {
+        "name": "cossackstage1d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1d.png"
+    },
+    {
+        "name": "cossackstage1e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1e.png"
+    },
+    {
+        "name": "cossackstage1f",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1f.png"
+    },
+    {
+        "name": "cossackstage1boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage1boss.png"
+    },
+    {
+        "name": "cossackstage2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2.png"
+    },
+    {
+        "name": "cossackstage2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2.png"
+    },
+    {
+        "name": "cossackstage2a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2a.png"
+    },
+    {
+        "name": "cossackstage2b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2b.png"
+    },
+    {
+        "name": "cossackstage2c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2c.png"
+    },
+    {
+        "name": "cossackstage2d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2d.png"
+    },
+    {
+        "name": "cossackstage2e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2e.png"
+    },
+    {
+        "name": "cossackstage2f",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2f.png"
+    },
+    {
+        "name": "cossackstage2boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage2boss.png"
+    },
+    {
+        "name": "cossackstage3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3.png"
+    },
+    {
+        "name": "cossackstage3a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3a.png"
+    },
+    {
+        "name": "cossackstage3b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3b.png"
+    },
+    {
+        "name": "cossackstage3c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3c.png"
+    },
+    {
+        "name": "cossackstage3d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3d.png"
+    },
+    {
+        "name": "cossackstage3e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3e.png"
+    },
+    {
+        "name": "cossackstage3boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage3boss.png"
+    },
+    {
+        "name": "cossackstage4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4.png"
+    },
+    {
+        "name": "cossackstage4a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4a.png"
+    },
+    {
+        "name": "cossackstage4b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4b.png"
+    },
+    {
+        "name": "cossackstage4secret",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4secret.png"
+    },
+    {
+        "name": "cossackstage4c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4c.png"
+    },
+    {
+        "name": "cossackstage4d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4d.png"
+    },
+    {
+        "name": "cossackstage4e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4e.png"
+    },
+    {
+        "name": "cossackstage4f",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4f.png"
+    },
+    {
+        "name": "cossackstage4boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/cossackstage4boss.png"
+    },
+    {
+        "name": "wilystage1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1.png"
+    },
+    {
+        "name": "wilystage1a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1a.png"
+    },
+    {
+        "name": "wilystage1b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1b.png"
+    },
+    {
+        "name": "wilystage1c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1c.png"
+    },
+    {
+        "name": "wilystage1d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1d.png"
+    },
+    {
+        "name": "wilystage1e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1e.png"
+    },
+    {
+        "name": "wilystage1f",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1f.png"
+    },
+    {
+        "name": "wilystage1boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage1boss.png"
+    },
+    {
+        "name": "wilystage2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2.png"
+    },
+    {
+        "name": "wilystage2a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2a.png"
+    },
+    {
+        "name": "wilystage2b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2b.png"
+    },
+    {
+        "name": "wilystage2c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2c.png"
+    },
+    {
+        "name": "wilystage2d",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2d.png"
+    },
+    {
+        "name": "wilystage2e",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2e.png"
+    },
+    {
+        "name": "wilystage2f",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2f.png"
+    },
+    {
+        "name": "wilystage2boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage2boss.png"
+    },
+    {
+        "name": "wilystage3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage3.png"
+    },
+    {
+        "name": "wilystage3a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage3a.png"
+    },
+    {
+        "name": "wilystage3b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage3b.png"
+    },
+    {
+        "name": "wilystage3c",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage3c.png"
+    },
+    {
+        "name": "wilystage3boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage3boss.png"
+    },
+    {
+        "name": "wilystage4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage4.png"
+    },
+    {
+        "name": "wilystage4a",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage4a.png"
+    },
+    {
+        "name": "wilystage4b",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage4b.png"
+    },
+    {
+        "name": "wilystage4boss",
+        "location_size": 16,
+        "location_border_thickness": 2,
+        "img": "images/maps/wilystage4boss.png"
+    }
+]

@@ -1,0 +1,98 @@
+{
+    "weapons_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "ringboomerang",
+                                "divemissile",
+                                "skullbarrier",
+                                "wireadapter",
+                                "rushcoil"
+                            ],
+                            [
+                                "pharaohshot",
+                                "chargebuster",
+                                "flashstopper",
+                                "",
+                                "rushmarine"
+                            ],
+                            [
+                                "rainflush",
+                                "drillbomb",
+                                "dustcrusher",
+                                "balloonadapter",
+                                "rushjet"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "weapons_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "ringboomerang",
+                                "divemissile",
+                                "skullbarrier"
+                            ],
+                            [
+                                "pharaohshot",
+                                "chargebuster",
+                                "flashstopper"
+                            ],
+                            [
+                                "rainflush",
+                                "drillbomb",
+                                "dustcrusher"
+                            ],
+                            [
+                                "balloonadapter",
+                                "",
+                                "wireadapter"
+                            ],
+                            [
+                                "rushjet",
+                                "rushmarine",
+                                "rushcoil"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

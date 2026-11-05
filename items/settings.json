@@ -1,0 +1,199 @@
+[
+    {
+        "name": "Consumables",
+        "type": "progressive",
+        "initial_stage_idx": 3,
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No Consumable Locations",
+                "img": "/images/settings/pickupsoff.png",
+                "codes": "opt_consumables,opt_consumables_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "1-Up and E-Tank Locations",
+                "img": "/images/settings/pickupsetankson.png",
+                "codes": "opt_consumables,opt_1upetank_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Energy Pickup Locations",
+                "img": "/images/settings/pickupsenergyon.png",
+                "codes": "opt_consumables,opt_energy_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "All Consumable Locations",
+                "img": "/images/settings/pickupson.png",
+                "codes": "opt_consumables,opt_consumables_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Strict Weaknesses",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Strict Weaknesses Off",
+                "img": "/images/settings/strictweaknessesoff.png",
+                "codes": "opt_strictweaknesses,opt_strictweaknesses_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Strict Weaknesses On",
+                "img": "/images/settings/strictweaknesseson.png",
+                "codes": "opt_strictweaknesses,opt_strictweaknesses_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Random Boss Weaknesses",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vanilla Boss Weaknesses",
+                "img": "/images/settings/randombossweaknessesoff.png",
+                "codes": "opt_randombossweaknesses,opt_randombossweaknesses_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffled Boss Weaknesses",
+                "img": "/images/settings/randombossweaknessesshuffle.png",
+                "codes": "opt_randombossweaknesses,opt_shufflebossweaknesses",
+                "inherit_codes": false
+            },
+            {
+                "name": "Random Boss Weaknesses",
+                "img": "/images/settings/randombossweaknesseson.png",
+                "codes": "opt_randombossweaknesses,opt_randombossweaknesses_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Random Rush Buster Damage",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Coil and Jet deal Mega Buster damage",
+                "img": "/images/settings/randomrushweaponsoff.png",
+                "codes": "opt_randomrushdamage,opt_randomrushdamage_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Coil and Jet can deal randomized damage",
+                "img": "/images/settings/randomrushweaponson.png",
+                "codes": "opt_randomrushdamage,opt_randomrushdamage_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Rematches required in Wily 3",
+        "type": "progressive",
+        "initial_stage_idx": 7,
+        "loop": false,
+        "allow_disabled": false,
+        "codes": "opt_rematchreq",
+        "stages": [
+            {
+                "img": "/images/settings/robotmasterreq1.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq2.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq3.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq4.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq5.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq6.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq7.png",
+                "inherit_codes": true
+            },
+            {
+                "img": "/images/settings/robotmasterreq8.png",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Starting Robot Master",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Starting Robot Master - Bright Man",
+                "img": "/images/items/brightmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_brightmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Toad Man",
+                "img": "/images/items/toadmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_toadmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Drill Man",
+                "img": "/images/items/drillmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_drillmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Pharaoh Man",
+                "img": "/images/items/pharaohmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_pharaohmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Ring Man",
+                "img": "/images/items/ringmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_ringmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Dust Man",
+                "img": "/images/items/dustmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_dustmanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Dive Man",
+                "img": "/images/items/divemanaccesscodes.png",
+                "codes": "opt_startingstage,opt_divemanstart",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Robot Master - Skull Man",
+                "img": "/images/items/skullmanaccesscodes.png",
+                "codes": "opt_startingstage,opt_skullmanstart",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

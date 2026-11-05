@@ -1,0 +1,66 @@
+{
+    "stageselecthorizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "All Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselect"
+                    ]
+                }
+            },
+            {
+                "title": "Robot Master Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselectrobot"
+                    ]
+                }
+            },
+            {
+                "title": "Doctor Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselectdoctor"
+                    ]
+                }
+            }
+        ]
+    },
+    "stageselectvertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "All Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselectvertical"
+                    ]
+                }
+            },
+            {
+                "title": "Robot Master Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselectrobot"
+                    ]
+                }
+            },
+            {
+                "title": "Doctor Stages",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "stageselectdoctor"
+                    ]
+                }
+            }
+        ]
+    }
+}

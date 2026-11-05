@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Cossack 1 Cleared",
+        "type": "toggle",
+        "codes": "cossack1clear"
+    },
+    {
+        "name": "Cossack 2 Cleared",
+        "type": "toggle",
+        "codes": "cossack2clear"
+    },
+    {
+        "name": "Cossack 3 Cleared",
+        "type": "toggle",
+        "codes": "cossack3clear"
+    },
+    {
+        "name": "Cossack 4 Cleared",
+        "type": "toggle",
+        "codes": "cossack4clear"
+    },
+    {
+        "name": "Wily 1 Cleared",
+        "type": "toggle",
+        "codes": "wily1clear"
+    },
+    {
+        "name": "Wily 2 Cleared",
+        "type": "toggle",
+        "codes": "wily2clear"
+    },
+    {
+        "name": "Wily 3 Cleared",
+        "type": "toggle",
+        "codes": "wily3clear"
+    }
+]

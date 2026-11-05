@@ -1,0 +1,25 @@
+{
+    "setting_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_height": 48,
+        "item_width": 48,
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+                "opt_startingstage",
+                "opt_consumables"
+            ],
+            [
+                "opt_strictweaknesses",
+                "opt_randombossweaknesses"
+            ],
+            [
+                "opt_randomrushdamage",
+                "opt_rematchreq"
+            ]
+        ]
+    }
+}

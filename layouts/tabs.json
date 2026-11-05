@@ -1,0 +1,108 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Stage Select",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "stageselecthorizontal"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Robot Master Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "robotmasterstages"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Cossack's Fortress Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstages"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Wily's Fortress Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystages"
+                    }
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Stage Select",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "stageselectvertical"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Robot Master Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "robotmasterstages"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Cossack's Fortress Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "cossackstages"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Wily's Fortress Stages",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "wilystages"
+                    }
+                    ]
+                }
+            }
+        ]
+    }
+}

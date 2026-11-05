@@ -1,0 +1,26 @@
+# What is this?
+This is a [PopTracker](https://poptracker.github.io/) pack for @Silvris' [Mega Man 4 integration](https://github.com/Silvris/Archipelago/releases?q=mega+man+4&expanded=true) for [Archipelago](https://archipelago.gg/).
+
+It tracks the items that the player receives and the locations that the player checks, displaying which ones are reachable based on their items.
+
+It features fully-fledged autotracking for items and locations by connecting to the server and reading the data from the player's slot.
+
+It also has segmented maps displaying the game's stages and where all of the pickups are located.
+
+# Limitations
+Currently, most options do not autotrack, and you will have to set them manually. **The only option that autotracks is `consumables`.**
+As a result of this, if you have `jammed_buster` turned off, then you will have to manually enable the Charge Buster item if you want it to display as received.
+
+While the maps have been styled in a way that is reminiscent of other PopTracker packs that support autotabbing, that feature is *not* present in this pack.
+
+If you have boss weakness randomization on, any boss locations that you can reach but are not guaranteed to be able to defeat will be colored **blue**.
+This does not interact perfectly with other functions and may result in logic being unclear.
+
+# Credits
+This pack would not have been possible without the resources that I used to create it:
+
+@StripesOO7's [poptracker-pack-builder](https://github.com/StripesOO7/poptracker-pack-builder) was a great help with getting things off the ground, and most of its baked-in lua functions still remain in the pack untouched.
+
+@PainSeer's [HGSS-AP-poptracker-pack](https://github.com/PainSeer/HGSS-AP-poptracker-pack), @palex00's [platinum-ap-tracker](https://github.com/palex00/platinum-ap-tracker), @BrianCumminger's [megaman2-ap-poptracker](https://github.com/BrianCumminger/megaman2-ap-poptracker), and @MysteryEm's [ww-poptracker](https://github.com/Mysteryem/ww-poptracker) were all very useful as inspiration and sources upon which many of the custom LUA functions were based, as well as references for JSON syntax.
+
+Last but not least, [MisterMike](https://www.spriters-resource.com/profile/mistermike/)'s contributions providing [Mega Man 4 sprites](https://www.spriters-resource.com/nes/mm4/) to [The Spriters Resource](https://www.spriters-resource.com/) gave me a goldmine of assets, without which none of the visuals used in the pack would have been possible.

@@ -1,0 +1,94 @@
+{
+    "access_codes_item_grid_horizontal": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "ringmanaccesscodes",
+                                "divemanaccesscodes",
+                                "skullmanaccesscodes",
+                                "dr.cossacksfortress1accesscodes",
+                                "dr.cossacksfortress2accesscodes"
+                            ],
+                            [
+                                "pharaohmanaccesscodes",
+                                "",
+                                "brightmanaccesscodes",
+                                "dr.cossacksfortress3accesscodes",
+                                "dr.cossacksfortress4accesscodes"
+                            ],
+                            [
+                                "toadmanaccesscodes",
+                                "drillmanaccesscodes",
+                                "dustmanaccesscodes"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "access_codes_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 48,
+                        "item_width": 48,
+                        "rows": [
+                            [
+                                "ringmanaccesscodes",
+                                "divemanaccesscodes",
+                                "skullmanaccesscodes"
+                            ],
+                            [
+                                "pharaohmanaccesscodes",
+                                "",
+                                "brightmanaccesscodes"
+                            ],
+                            [
+                                "toadmanaccesscodes",
+                                "drillmanaccesscodes",
+                                "dustmanaccesscodes"
+                            ],
+                            [
+                                "dr.cossacksfortress1accesscodes",
+                                "dr.cossacksfortress2accesscodes"
+                            ],
+                            [
+                                "dr.cossacksfortress3accesscodes",
+                                "dr.cossacksfortress4accesscodes"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

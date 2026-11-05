@@ -1,0 +1,483 @@
+{
+    "cossackstage1": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1e"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1f"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage1boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "cossackstage2": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2e"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2f"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage2boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "cossackstage3": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3e"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage3boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "cossackstage4": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4b"
+                    ]
+                }
+            },
+            {
+                "title": "Shortcut",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4secret"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4e"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4f"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "cossackstage4boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "wilystage1": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1e"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1f"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage1boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "wilystage2": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2c"
+                    ]
+                }
+            },
+            {
+                "title": "Section 4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2d"
+                    ]
+                }
+            },
+            {
+                "title": "Section 5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2e"
+                    ]
+                }
+            },
+            {
+                "title": "Section 6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2f"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage2boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "wilystage3": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage3a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage3b"
+                    ]
+                }
+            },
+            {
+                "title": "Section 3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage3c"
+                    ]
+                }
+            },
+            {
+                "title": "Bosses",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage3boss"
+                    ]
+                }
+            }
+        ]
+    },
+    "wilystage4": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Section 1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage4a"
+                    ]
+                }
+            },
+            {
+                "title": "Section 2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage4b"
+                    ]
+                }
+            },
+            {
+                "title": "Boss",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                    "wilystage4boss"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Mega Man 4 Archipelago",
+    "game_name": "Mega Man 4",
+    "package_version": "0.0.1",
+    "package_uid": "mega man 4_ap",
+    "author": "Seafo",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker (Horizontal)",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_2_vertical": {
+            "display_name": "Map Tracker (Vertical)",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_3_items_only": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.36.0"
+}

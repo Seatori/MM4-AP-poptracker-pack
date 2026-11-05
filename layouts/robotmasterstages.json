@@ -1,0 +1,103 @@
+{
+    "robotmasterstages": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Bright Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "brightmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dive Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "divemanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Drill Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "drillmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Dust Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "dustmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Pharaoh Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "pharaohmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Ring Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "ringmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Skull Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "skullmanstage"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "Toad Man Stage",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                    {
+                        "type": "layout",
+                        "key": "toadmanstage"
+                    }
+                    ]
+                }
+            }
+        ]
+    }
+}

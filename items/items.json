@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Drill Bomb",
+        "type": "toggle",
+        "img": "images/items/drillbomb.png",
+        "disabled_img": "images/items/drillbombopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drillbomb"
+    },
+    {
+        "name": "Pharaoh Shot",
+        "type": "toggle",
+        "img": "images/items/pharaohshot.png",
+        "disabled_img": "images/items/pharaohshotopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pharaohshot"
+    },
+    {
+        "name": "Drill Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/drillmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "drillmanaccesscodes"
+    },
+    {
+        "name": "Dr. Cossack's Fortress 3 Access Codes",
+        "type": "toggle",
+        "img": "images/items/dr.cossacksfortress3accesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dr.cossacksfortress3accesscodes"
+    },
+    {
+        "name": "Dust Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/dustmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dustmanaccesscodes"
+    },
+    {
+        "name": "Dust Crusher",
+        "type": "toggle",
+        "img": "images/items/dustcrusher.png",
+        "disabled_img": "images/items/dustcrusheropen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dustcrusher"
+    },
+    {
+        "name": "Pharaoh Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/pharaohmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pharaohmanaccesscodes"
+    },
+    {
+        "name": "Ring Boomerang",
+        "type": "toggle",
+        "img": "images/items/ringboomerang.png",
+        "disabled_img": "images/items/ringboomerangopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ringboomerang"
+    },
+    {
+        "name": "Rain Flush",
+        "type": "toggle",
+        "img": "images/items/rainflush.png",
+        "disabled_img": "images/items/rainflushopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rainflush"
+    },
+    {
+        "name": "Dive Missile",
+        "type": "toggle",
+        "img": "images/items/divemissile.png",
+        "disabled_img": "images/items/divemissileopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "divemissile"
+    },
+    {
+        "name": "Dive Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/divemanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "divemanaccesscodes"
+    },
+    {
+        "name": "Rush Coil",
+        "type": "toggle",
+        "img": "images/items/rushcoil.png",
+        "disabled_img": "images/items/rushcoilopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rushcoil"
+    },
+    {
+        "name": "Skull Barrier",
+        "type": "toggle",
+        "img": "images/items/skullbarrier.png",
+        "disabled_img": "images/items/skullbarrieropen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skullbarrier"
+    },
+    {
+        "name": "Balloon Adapter",
+        "type": "toggle",
+        "img": "images/items/balloonadapter.png",
+        "disabled_img": "images/items/balloonadapteropen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "balloonadapter"
+    },
+    {
+        "name": "Rush Jet",
+        "type": "toggle",
+        "img": "images/items/rushjet.png",
+        "disabled_img": "images/items/rushjetopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rushjet"
+    },
+    {
+        "name": "Skull Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/skullmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skullmanaccesscodes"
+    },
+    {
+        "name": "Flash Stopper",
+        "type": "toggle",
+        "img": "images/items/flashstopper.png",
+        "disabled_img": "images/items/flashstopperopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "flashstopper"
+    },
+    {
+        "name": "Toad Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/toadmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "toadmanaccesscodes"
+    },
+    {
+        "name": "Dr. Cossack's Fortress 2 Access Codes",
+        "type": "toggle",
+        "img": "images/items/dr.cossacksfortress2accesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dr.cossacksfortress2accesscodes"
+    },
+    {
+        "name": "Dr. Cossack's Fortress 4 Access Codes",
+        "type": "toggle",
+        "img": "images/items/dr.cossacksfortress4accesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dr.cossacksfortress4accesscodes"
+    },
+    {
+        "name": "Rush Marine",
+        "type": "toggle",
+        "img": "images/items/rushmarine.png",
+        "disabled_img": "images/items/rushmarineopen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rushmarine"
+    },
+    {
+        "name": "Wire Adapter",
+        "type": "toggle",
+        "img": "images/items/wireadapter.png",
+        "disabled_img": "images/items/wireadapteropen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wireadapter"
+    },
+    {
+        "name": "Ring Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/ringmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ringmanaccesscodes"
+    },
+    {
+        "name": "Dr. Cossack's Fortress 1 Access Codes",
+        "type": "toggle",
+        "img": "images/items/dr.cossacksfortress1accesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dr.cossacksfortress1accesscodes"
+    },
+    {
+        "name": "Bright Man Access Codes",
+        "type": "toggle",
+        "img": "images/items/brightmanaccesscodes.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "brightmanaccesscodes"
+    },
+    {
+        "name": "Charge Buster",
+        "type": "toggle",
+        "img": "images/items/chargebuster.png",
+        "disabled_img": "images/items/chargebusteropen.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chargebuster"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]
