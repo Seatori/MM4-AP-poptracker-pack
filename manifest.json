@@ -1,7 +1,7 @@
 {
     "name": "Mega Man 4 Archipelago",
     "game_name": "Mega Man 4",
-    "package_version": "0.0.1",
+    "package_version": "1.0.0",
     "package_uid": "mega_man_4_ap",
     "author": "Seafo",
     "versions_url": "https://raw.githubusercontent.com/Seatori/MM4-AP-poptracker-pack/refs/heads/main/versions.json",
