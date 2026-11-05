@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/Seatori/MM4-AP-poptracker-pack/archive/refs/tags/1.0.0.zip",
+            "sha256": "f1c95b9c7a6af21e7d5c0f014b12eb3c556a0333e6e3dc19039c0805f8b99975",
+            "changelog": [
+                "Check release notes"
+            ]
+        }
+    ]
+}
