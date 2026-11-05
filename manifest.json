@@ -4,6 +4,7 @@
     "package_version": "0.0.1",
     "package_uid": "mega man 4_ap",
     "author": "Seafo",
+    "versions_url": "https://raw.githubusercontent.com/Seatori/MM4-AP-poptracker-pack/refs/heads/main/versions.json",
     "variants": {
         "standard": {
             "display_name": "Map Tracker (Horizontal)",
